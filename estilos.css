@@ -1,0 +1,49 @@
+#contador.alerta {
+  color: red;
+}
+.error {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+form {
+  width: 650px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.campo,
+fieldset {
+  margin-bottom: 15px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
